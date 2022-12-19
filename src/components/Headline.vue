@@ -6,8 +6,9 @@
       THAT YOU WERE LOOKING FOR
     </h1>
     <p>
-      영화를 검색해보세요 <br />
-      제목, 시리즈, 에피소드
+      This service provides YOU <br />
+      To know various information <br />
+      Such as movie information, ratings, and release date.
     </p>
   </div>
 </template>
