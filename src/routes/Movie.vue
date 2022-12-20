@@ -74,7 +74,6 @@ export default {
     ...mapState("movie", ["theMovie", "loading"]),
   },
   created() {
-    console.log(this.$route);
     this.$store.dispatch("movie/searchMovieWithId", {
       id: this.$route.params.id,
     });
