@@ -5,6 +5,6 @@ export default {
     email: "uhahasky@naver.com",
     blog: "",
     phone: "+82-10-3917-2259",
-    image: "https://heropy.blog/css/images/logo.png",
+    image: "../../assets/logo.png",
   }),
 };
