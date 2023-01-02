@@ -14,9 +14,6 @@ export default {
     Footer,
     Ads,
   },
-  mounted() {
-    this.adsenseContent = document.getElementById("divadsensedisplaynone").innerHTML;
-  },
 };
 </script>
 <style lang="scss">
