@@ -4,7 +4,6 @@
   <Footer />
   <Ads />
 </template>
-
 <script>
 import Header from "~/components/Header";
 import Footer from "~/components/Footer";
@@ -14,6 +13,9 @@ export default {
     Header,
     Footer,
     Ads,
+  },
+  mounted() {
+    this.adsenseContent = document.getElementById("divadsensedisplaynone").innerHTML;
   },
 };
 </script>

@@ -1,9 +1,7 @@
 <template>
   <footer>
     <Logo />
-    <a href="#" target="_blank">
-      Copyright (c) {{ new Date().getFullYear() }} SKY the brilliant
-    </a>
+    <a href="#" target="_blank"> Copyright (c) {{ new Date().getFullYear() }} SKY the brilliant </a>
   </footer>
 </template>
 
