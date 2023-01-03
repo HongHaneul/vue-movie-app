@@ -19,7 +19,9 @@
         <Loader v-if="imageLoading" absolute />
       </div>
       <div class="specs">
-        <div class="title">{{ theMovie.Title }}</div>
+        <div class="title">
+          {{ theMovie.Title }}
+        </div>
         <div class="labels">
           <span>{{ theMovie.Released }}</span>
           <span>{{ theMovie.Runtime }}</span>
@@ -55,15 +57,19 @@
         </div>
       </div>
     </div>
+    <Ads />
   </div>
 </template>
 
 <script>
 import { mapState } from "vuex";
 import Loader from "~/components/Loader";
+import Ads from "~/components/Adsense";
+
 export default {
   components: {
     Loader,
+    Ads,
   },
   data() {
     return {
